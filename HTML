@@ -1,0 +1,258 @@
+<main id="main-doc">
+    <nav id="navbar" class="sidebar">
+      <header>
+      <h1>HTML FORM DOCUMENTATION</h1>
+      </header>
+       <ul>
+         <li><a href="#forms" class="nav-link">Forms</a></li>
+            <li><a href="#form_attributes" class="nav-link">Form Attributes</a></li>
+            <li><a href="#form_elements" class="nav-link">Form Elements</a></li> 
+            <li><a href="#form_input_types" class="nav-link">Form Input Types</a></li>
+            <li><a href="#form_input_attributes" class="nav-link">Form Input Attributes</a></li>
+      </ul>         
+    </nav>
+  <body>
+    <section id="forms" class="main-section">
+      <header>
+      <h2>Forms</h2>
+      </header>
+      <h3>What is HTML?</h3>
+<p> HTML stands for Hyper Text Markup Language
+  HTML is the standard markup language for creating Web pages
+  HTML describes the structure of a Web page
+  HTML consists of a series of elements
+  HTML elements tell the browser how to display the content
+  HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+      <h3>What is an HTML form?</h3>
+        <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.<br>
+        The HTML form element is used to create an HTML form for user input<br>
+      The form element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+      </p>
+      </section>
+     <section id="form_elements" class="main-section">
+       <header>
+       <h2>Form Elements</h2>
+       </header>
+       <p>The HTML form element can contain one or more of the following form elements:</p>
+       <table>
+           <tr>
+            <th>Form</th>
+            <td>Defines an HTML form for user input</td>
+           </tr>
+           <tr>
+            <th>input</th>
+            <td>Defines an input control</td>
+        </tr>
+        <tr>
+            <th>textarea</th>
+            <td>Defines a multiline input control (text area)</td>
+        </tr>
+        <tr>
+            <th>label</th>
+            <td>Defines a label for an input element</td>
+        </tr>
+        <tr>
+            <th>fieldset</th>
+            <td>Groups related elements in a form</td>
+        </tr>
+        <tr>
+            <th>legend</th>
+            <td>Defines a caption for a fieldset element</td>
+        </tr>
+        <tr>
+            <th>select</th>
+            <td>Defines a drop-down list</td>
+        </tr>
+        <tr>
+            <th>optgroup</th>
+            <td>Defines a group of related options in a drop-down list</td>
+        </tr>
+        <tr>
+            <th>option</th>
+            <td>Defines an option in a drop-down list</td>
+        </tr>
+        <tr>
+            <th>button</th>
+            <td>Defines a clickable button</td>
+        </tr>
+        <tr>
+            <th>datalist</th>
+            <td>Specifies a list of pre-defined options for input controls</td>
+        </tr>
+        <tr>
+            <th>output</th>
+            <td>Defines the result of a calculation</td>
+        </tr>
+       </table>
+      <p></p>
+      </section>
+     <section id="form_attributes" class="main-section">
+       <header>
+       <h2>Form Attributes</h2>
+       </header>
+       <p>HTML form attributes are attributes that can be applied to input elements. These attributes add features and behaviors to the form elements.</p>
+       <p>An example of a form attribute would be:<pre><code>
+       form action= "/action_page.php"
+       </code></pre>  
+       this would tell the form the action to submit to specifed page 
+       </p>
+  <h4>Common form attributes are:</h4>
+       <p>
+       <ul>
+         <li>accept-charset</li>
+         <li>action</li>
+         <li>autocomplete</li>
+         <li>enctype</li>
+         <li>method</li>
+         <li>name</li>
+         <li>novalidate</li>
+         <li>rel</li>
+         <li>target</li>
+       </ul>
+       </p>
+       <h4>The Accept-charset Attribute</h4>
+       <p>Specifies the character encodings used for form submission</p>
+       <h4>The Action Attribute</h4>
+      <p>Specifies where to send the form-data when a form is submitted</p>
+  <h4>The Autocomplet Attribute</h4>
+  <p>Specifies whether a form should have autocomplete on or off</p>
+  <h4>The Enctype Attribute</h4>
+  <p>	Specifies how the form-data should be encoded when submitting it to the server (only for method="post")</p>
+<h4>The Method Attribute</h4>
+<p>Specifies the HTTP method to use when sending form-data</p>
+<h4>The Name Attribute</h4>
+<p>Specifies the name of the form</p>
+<h4>The Novalidate Attribute</h4>
+<p>Specifies that the form should not be validated when submitted</p>
+<h4>The Rel Attribute</h4>
+<p>Specifies the relationship between a linked resource and the current document</p>
+<h4>The Target Attribute</h4>
+<p>Specifies where to display the response that is received after submitting the form</p>
+</section> 
+    <section id="form_input_types" class="main-section">
+      <header>
+      <h2>Form Input Types</h2>
+      </header>
+      <h3>Type is a specific attibute in a form that defines what type of input is going to be collected</h3>
+      <p>The input types are fairly self explanatory and are written as: 
+        <pre><code>
+        input type="text" </code>
+        <code>
+        input type="email"</code>
+        <code>
+        input type="submit" 
+        </code></pre>etc.</p>
+    <p>The input types are:
+          <ul>
+              <li>button</li>
+              <li>checkbox</li>
+              <li>color</li>
+              <li>date</li>
+              <li>datetime-local</li>
+              <li>email</li>
+              <li>file</li>
+              <li>hidden</li>
+              <li>image</li>
+              <li>month</li>
+              <li>number</li>
+              <li>password</li>
+              <li>radio</li>
+              <li>range</li>
+              <li>range</li>
+              <li>reset</li>
+              <li>search</li>
+              <li>submit</li>
+              <li>tel</li>
+              <li>text</li>
+              <li>time</li>
+              <li>url</li>
+              <li>week</li>
+          </ul>
+      </p>
+      
+      </section>
+     <section id="form_input_attributes" class="main-section">
+       <header>
+       <h2>Form Input Attributes</h2>
+       </header>
+       <p>HTML input attributes are attributes that can be applied to input elements. These attributes add features and behaviors to the input elements.</p>
+       <p>An example of input attribute is:
+       <pre><code>
+       input placeholder="YourName"
+         </code></pre>
+       which would show the user "YourName" in the input field as an example of what input is expected.
+       </p>
+      <h4>Some of the most common input attributes are:</h4>
+      <table>
+        <tr>
+         <th>type</th>
+         <td>The type of input</td>
+        </tr>
+        <tr>
+         <th>vaule</th>
+         <td>The value of the input</td>
+     </tr>
+     <tr>
+         <th>name</th>
+         <td>The name of the input</td>
+     </tr>
+     <tr>
+         <th>readonly</th>
+         <td>Makes the input read only</td>
+     </tr>
+     <tr>
+         <th>disabled</th>
+         <td>Disables the input</td>
+     </tr>
+     <tr>
+         <th>size</th>
+         <td>Input controls the width in the number of characters</td>
+     </tr>
+     <tr>
+         <th>maxlength</th>
+         <td>Controls the maximum number of characters allowed in the input field</td>
+     </tr>
+     <tr>
+         <th>min and max</th>
+         <td>The min and max values allowed in an input field</td>
+     </tr>
+     <tr>
+         <th>multiple</th>
+         <td>Allows multiple inputs</td>
+     </tr>
+     <tr>
+         <th>pattern</th>
+         <td>Checks input against a regular expression</td>
+     </tr>
+     <tr>
+         <th>placeholder</th>
+         <td>A short hint which describes expected value</td>
+     </tr>
+     <tr>
+         <th>required</th>
+         <td>Sets the input field as required to submit</td>
+     </tr>
+     <tr>
+        <th>step</th>
+        <td>Interval between legal numbers</td>
+    </tr>
+    <tr>
+        <th>autofocus</th>
+        <td>Sets the focus on the element after page loads</td>
+    </tr>
+    <tr>
+        <th>height and width</th>
+        <td>Sets height and width for an image type, always specify for both attributes</td>
+    </tr>
+    <tr>
+        <th>list</th>
+        <td>The input list attribute refers to a datalist element that contains pre-defined options for an input element</td>
+    </tr>
+    <tr>
+        <th>autocomplete</th>
+        <td>specifies whether a form or an input field should have autocomplete on or off</td>
+    </tr> 
+    </table>
+      </section>
+</body>
+  </main>
